@@ -14,7 +14,7 @@ _This exercise uses the jQuery library, HTML, CSS, and Javascript to create an i
 * Navigate to index.html file.
 * Right click and open in the browser of your choice.
 
-* Alternatively, open the webpage at jhvozdovich@github.io/jQuery-practice
+* Alternatively, open the webpage at https://jhvozdovich.github.io/jQuery-practice/
 
 
 ## Known Bugs
