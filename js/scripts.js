@@ -1,14 +1,10 @@
 $(document).ready(function() {  
-  $("h1").click(function() {
-    alert("This is a header.");
-    alert("I told you, THIS IS A HEADER!")
-  });
+  var tags = ["h1", "p", "img"];
+  var names = ["header", "paragraph", "image"];
 
-  $("p").click(function() {
-    alert("This is a paragraph.");
-  });
-
-  $("img").click(function() {
-    alert("This is an image.");
-  });
-});
+  tags.forEach(function(tag) {
+    $(tag).click(function() {
+      alert("This is a " + names[tags.indexOf(tag)]);
+    })
+  })
+})
